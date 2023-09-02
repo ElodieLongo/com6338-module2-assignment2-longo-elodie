@@ -1,7 +1,7 @@
 function greet() {
-  let name = prompt("What is your name?");
+  var name = prompt("What is your name?");
   alert(`Hello, ${name}!`);
-  let age = prompt("How old are you?");
+  var age = prompt("How old are you?");
   age = parseInt(age);
 
   let YesBirthday = confirm("Did you have a birthday yet this year?");
